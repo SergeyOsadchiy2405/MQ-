@@ -84,36 +84,68 @@ li {
 .post:nth-child(n + 2) {
 	margin-top: 70px;
 }
-.trend{
+ .post-trend{
   display: flex;
-  
+  position: relative;
   min-height: 444px;
   gap: 4px;
   margin-top: 64px;
   border: 2px solid red;
 
-}
-.post-trend{
+  }
+ .trend-img1{
   width: 25%;
+  display:inline-block;
   border: 4px solid green;
-  position: relative;
- 
-
-}
-.trend-img1{
-
-  background-image: url("C:\Users\User\OneDrive\Рабочий стол\MQ-diplom-main\MQ-diplom-main\images\trend1.jpg");
-
+  background-image: url(../images/trend1.jpg);
   background-size: no-repeat;
-
   background-position: center ;
-
   background-size: cover;
+  }
+
+  .trend-img2{
+    width: 25%;
+    display:inline-block;
+    border: 4px solid green;
+    background-image: url(../images/trend2.jpg);
+    background-size: no-repeat;
+    background-position: center ;
+    background-size: cover; 
+  }
+  .trend-img3{
+    width: 25%;
+    display:inline-block;
+    border: 4px solid green;
+    background-image: url(../images/trend3.jpg);
+    background-size: no-repeat;
+    background-position: center ;
+    background-size: cover; 
+  }
+  .trend-img4{
+    width: 25%;
+    display:inline-block;
+    border: 4px solid green;
+    background-image: url(../images/trend4.jpg);
+    background-size: no-repeat;
+    background-position: center ;
+    background-size: cover; 
+  }
+  .box-trend{
+    width: 366px; 
+    margin: 151px 25px 16px 25px;
+    text-align: left;
+    border: 4px solid #84754b;
+    z-index: 10;
+  }
+
+
+  
+ 
 
  
 
   
-}
+
 
  
 /* =================main================== */
