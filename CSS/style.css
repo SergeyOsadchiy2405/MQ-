@@ -93,19 +93,25 @@ li {
   border: 2px solid red;
 
   }
+
  .trend-img1{
   width: 25%;
-  display:inline-block;
+  display: flex;
+  
   border: 4px solid green;
   background-image: url(../images/trend1.jpg);
-  background-size: no-repeat;
+  background-repeat: no-repeat;
   background-position: center ;
   background-size: cover;
+  opacity: 0.800;
+  
   }
+  
 
   .trend-img2{
     width: 25%;
-    display:inline-block;
+    display: flex;
+  align-items: flex-end;
     border: 4px solid green;
     background-image: url(../images/trend2.jpg);
     background-size: no-repeat;
@@ -114,7 +120,8 @@ li {
   }
   .trend-img3{
     width: 25%;
-    display:inline-block;
+    display: flex;
+    align-items: flex-end;
     border: 4px solid green;
     background-image: url(../images/trend3.jpg);
     background-size: no-repeat;
@@ -123,7 +130,8 @@ li {
   }
   .trend-img4{
     width: 25%;
-    display:inline-block;
+    display: flex;
+    align-items: flex-end;
     border: 4px solid green;
     background-image: url(../images/trend4.jpg);
     background-size: no-repeat;
@@ -131,17 +139,37 @@ li {
     background-size: cover; 
   }
   .box-trend{
-    width: 366px; 
-    margin: 151px 25px 16px 25px;
-    text-align: left;
-    border: 4px solid #84754b;
-    z-index: 10;
+    position: absolute;
+    top: 151px;
+    left: 25px;
+    right: 25px;
+    bottom: 16px;
+    opacity: 0.600;
+    width: 370px;
+    height: 146px;
+    background-color: rgba(0,0,0,0);
+    border: 3px solid #b59f5b;
   }
-
-
   
- 
-
+  .title-trend{
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Open Sans";
+  }
+  .trendlink2{
+    font-size: 14px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #b59f5b;
+    font-weight: bold;
+    font-family: "Open Sans";
+  }
+   .trend-list2{
+  display: flex;
+  }
  
 
   
