@@ -1,6 +1,6 @@
 @font-face {
   font-family: "OpenSans";
-  src: url("../Fonts/OpenSans-Regular.woff");
+  src: url("../fonts/OpenSans-Regular.woff");
   font-weight: 400;
 }
 
@@ -161,7 +161,7 @@ a {
   position: absolute;
   width: 10px;
   height: 20px;
-  background-image: url(../SVG/form-arrows.svg);
+  background-image: url(../svg/form-arrows.svg);
   background-size: cover;
   background-repeat: no-repeat;
   bottom: 40px;
@@ -200,7 +200,7 @@ a {
   position: absolute;
   width: 17px;
   height: 17px;
-  background-image: url(../SVG/form-empty-circle.svg);
+  background-image: url(../svg/form-empty-circle.svg);
   top: 0;
   left: 0;
   cursor: pointer;
@@ -209,7 +209,7 @@ a {
 }
 
 .radio-check:checked ~ .radio-text::before {
-  background-image: url(../SVG/form-circle.svg);
+  background-image: url(../svg/form-circle.svg);
 }
 
 .text-area {
@@ -543,7 +543,7 @@ a {
   border: none;
   cursor: pointer;
 
-  background-image: url(../SVG/search.svg);
+  background-image: url(../svg/search.svg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 18px;
@@ -787,7 +787,7 @@ a {
 }
 
 .dribbble {
-  background-image: url(../SVG/001-dribbble.svg);
+  background-image: url(../svg/001-dribbble.svg);
   display: block;
   background-repeat: no-repeat;
   width: 20px;
@@ -795,7 +795,7 @@ a {
   margin-right: 30px;
 }
 .pinterest {
-  background-image: url(../SVG/002-pinterest.svg);
+  background-image: url(../svg/002-pinterest.svg);
   display: block;
   background-repeat: no-repeat;
   width: 20px;
@@ -803,7 +803,7 @@ a {
   margin-right: 30px;
 }
 .tumblr {
-  background-image: url(../SVG/004-twitter.svg);
+  background-image: url(../svg/004-twitter.svg);
   display: block;
   background-repeat: no-repeat;
   width: 20px;
