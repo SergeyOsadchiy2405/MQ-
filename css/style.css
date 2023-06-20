@@ -16,7 +16,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family:"OpenSans Regular", sans-serif;
   margin: 0;
 }
 
@@ -27,7 +27,7 @@ ol {
   list-style-type: none;
 }
 
-a {
+a{
   text-decoration: none;
 }
 
