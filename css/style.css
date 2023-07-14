@@ -1,6 +1,6 @@
 @font-face {
   font-family: "OpenSans";
-  src: url("fonts\OpenSans-Regular.woff");
+  src: url("..//fonts/OpenSans-Bold.woff");
   font-weight: 400;
 }
 
@@ -35,7 +35,7 @@ a {
 
 .header {
   position: relative;
-  background-image: url("images\banner-bg.jpg");
+  background-image: url("../images/banner-bg.jpg");
   background-repeat: no-repeat;
   padding-bottom: 125px;
   background-size: cover;
@@ -167,7 +167,7 @@ a {
   position: absolute;
   width: 10px;
   height: 20px;
-  background-image: url(svg\form-arrows.svg);
+  background-image: url(..//svg/form-arrows.svg);
   background-size: cover;
   background-repeat: no-repeat;
   bottom: 40px;
@@ -206,7 +206,7 @@ a {
   position: absolute;
   width: 17px;
   height: 17px;
-  background-image: url(svg\form-empty-circle.svg);
+  background-image: url(../svg/form-empty-circle.svg);
   top: 0;
   left: 0;
   cursor: pointer;
@@ -215,7 +215,7 @@ a {
 }
 
 .radio-check:checked ~ .radio-text::before {
-  background-image: url(svg\form-circle.svg);
+  background-image: url(..//svg/form-circle.svg);
 }
 
 .text-area {
@@ -295,24 +295,24 @@ a {
 }
 
 .trand-1 {
-  background-image: url(images\trend1.jpg);
+  background-image: url(../images/trend1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .trand-2 {
-  background-image: url(images\trend2.jpg);
+  background-image: url(../images/trend2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .trand-3 {
-  background-image: url(images\trend3.jpg);
+  background-image: url(../images/trend3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 .trand-4 {
-  background-image: url(images\trend4.jpg);
+  background-image: url(../images/trend4.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -552,7 +552,7 @@ font-weight: 700;
   border: none;
   cursor: pointer;
   
-  background-image: url(svg\search.svg);
+  background-image: url(..//svg/search.svg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 18px;
@@ -805,7 +805,7 @@ font-weight: 700;
 
 
 .dribbble {
- background-image: url(svg\001-dribbble.svg);
+ background-image: url(..//svg/001-dribbble.svg);
   display: block;
   background-repeat: no-repeat;
   width: 20px;
@@ -813,7 +813,7 @@ font-weight: 700;
   margin-right: 30px; 
 }
 .pinterest {
- background-image: url(svg\002-pinterest.svg);
+ background-image: url(..//svg/002-pinterest.svg);
   display: block;
   background-repeat: no-repeat;
   width: 20px;
@@ -821,7 +821,7 @@ font-weight: 700;
   margin-right: 30px; 
 }
 .tumblr {
-  background-image: url(svg\004-twitter.svg); 
+  background-image: url(..//svg/004-twitter.svg); 
   display: block;
   background-repeat: no-repeat;
   width: 20px;
