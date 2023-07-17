@@ -1,12 +1,12 @@
 @font-face {
   font-family: "OpenSans";
-  src: url("..//fonts/OpenSans-Bold.woff");
+  src: url("../fonts/OpenSans-Bold.woff");
   font-weight: 400;
 }
 
 @font-face {
   font-family: "OpenSans";
-  src: url("fonts\OpenSans-Bold.woff");
+  src: url("../fonts/OpenSans-Bold.woff");
   font-weight: 700;
 }
 
@@ -17,7 +17,7 @@
 }
 
 body {
-    font-family: "OpenSans", "sans-serif";
+    font-family: "OpenSans";
     margin: 0;
 }
 
@@ -352,6 +352,7 @@ a {
   font-size: 43px;
   line-height: 75px;
 }
+
 
 .content {
   display: flex;
